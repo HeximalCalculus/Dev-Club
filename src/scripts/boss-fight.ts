@@ -147,7 +147,7 @@ export const DAMAGE_TYPES: {
   { match: ['virus', 'malware', 'trojan', 'worm', 'ransomware'], name: 'malware', armour: 'up-to-date definitions' },
   { match: ['ddos', 'flood attack', 'packet', 'botnet'], name: 'volumetric', armour: 'generous bandwidth' },
   { match: ['sql', 'injection', 'inject', 'drop table'], name: 'injection', armour: 'parameterised queries' },
-  { match: ['brute', 'bruteforce', 'brute force', 'password', 'crack'], name: 'brute force', armour: 'a rate limiter' },
+  { match: ['brute', 'bruteforce', 'brute force', 'password', 'crack', 'hack'], name: 'brute force', armour: 'a rate limiter' },
   { match: ['phish', 'phishing', 'scam', 'email'], name: 'phishing', armour: 'mandatory annual training' },
   { match: ['xss', 'script', 'javascript'], name: 'script injection', armour: 'a strict content policy' },
 ];
@@ -170,6 +170,7 @@ export const GENERIC_MISSES: string[] = [
   'Access denied. Also, that was not really an attack.',
   'The knight steps aside. You hit a wall. The wall is fine.',
   'Your attack is added to a list of things that did not work.',
+  'You do the exact opposite of what you were trying. The knight barely notices.'
 ];
 
 /**
